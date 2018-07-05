@@ -1,0 +1,89 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative
+}
+
+#background{
+    width: 100%;
+}
+
+.card{
+    position: absolute;
+    z-index: 102;
+    top: 22%;
+    left: 45%;
+}
+img.card {
+    position: absolute;
+    width: 4%;
+    height: 11%;
+}
+.btnHit {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    padding: 0.9% 2.2%;
+    top: 55%;
+    left: 48%;
+    z-index: 100;
+    background: #501F1C;
+    color: rgb(146, 145, 145);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3em; 
+}
+.gameOver {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    z-index: 200;
+    top: 25%;
+    left: 34%;
+    font-size: 6em;
+    color: rgb(173, 173, 173);
+    background:#501F1C;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#btnNewGame{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 1%;
+    left: 85%;
+    font-size: 1em;
+    color: rgb(173, 173, 173);
+    background:#501F1C;
+    border-radius: 5px;
+    padding: 1%;
+    z-index: 200;
+    border: none;
+}
+h1.title {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(173, 173, 173);
+    left: 50%;
+    margin-left: -20px;
+    z-index: 102;
+    top: 1%;
+}
+
+@media all and (max-width: 900px) {
+    .btnHit {
+        font-size: 0.6em;
+    }
+    #btnNewGame{
+        font-size: 0.5em;
+    }
+    .gameOver {
+        font-size: 3em;
+    }
+    /* img.card{
+        position: absolute; 
+        top: 22%; 
+        left: 45%;
+    } */
+    
+}
